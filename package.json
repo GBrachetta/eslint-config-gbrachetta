@@ -1,0 +1,51 @@
+{
+  "author": "Guillermo Brachetta <brachetta@me.com> (https://github.com/gbrachetta/)",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.9.0",
+    "@typescript-eslint/parser": "^6.9.0",
+    "eslint-config-next": "13.5.6",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-babel": "^5.3.1",
+    "eslint-plugin-css-import-order": "^1.1.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-sort-destructure-keys": "^1.5.0",
+    "eslint-plugin-sort-exports": "^0.8.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.2",
+    "eslint-plugin-typescript-sort-keys": "^3.1.0",
+    "prettier": "^3.0.3",
+    "prettier-plugin-tailwindcss": "^0.5.6"
+  },
+  "description": "Thorough TSLint configuration for React-based projects based on airbnb and Prettier configs with many additional rules such as autofixable sorting, etc.",
+  "devDependencies": {
+    "eslint": "^8.52.0",
+    "prettier": "^3.0.3"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "javascript",
+    "eslint",
+    "eslintconfig",
+    "eslint-config",
+    "airbnb-config",
+    "prettier-config",
+    "react",
+    "hooks",
+    "react-hooks",
+    "gbrachetta",
+    "guillermo brachetta",
+    "tslint"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "eslint-config-gbrachetta",
+  "peerDependencies": {
+    "eslint": "*",
+    "prettier": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "version": "0.0.2"
+}
