@@ -6,7 +6,7 @@
     npm i -D eslint-config-gbrachetta
     ```
 
-2. Add to **"gbrachetta"** to `.eslintrc.json`
+2. Add **"gbrachetta"** to `.eslintrc.json`
 
    ```json
    {
