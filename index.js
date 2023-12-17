@@ -85,6 +85,8 @@ module.exports = {
     'sort-keys-fix',
     '@typescript-eslint',
     'sort-exports',
+    'eslint-plugin-import',
+    'eslint-plugin-react'
   ],
 
   rules: {
