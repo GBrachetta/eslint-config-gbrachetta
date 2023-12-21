@@ -79,20 +79,19 @@ module.exports = {
   },
 
   plugins: [
-    'prettier',
-    'sort-destructure-keys',
-    'typescript-sort-keys',
-    'sort-keys-fix',
+    '@stylistic',
     '@typescript-eslint',
-    'sort-exports',
     'eslint-plugin-import',
     'eslint-plugin-react',
-    '@stylistic'
+    'prettier',
+    'sort-destructure-keys',
+    'sort-exports',
+    'sort-keys-fix',
+    'typescript-sort-keys',
+    'unused-imports',
   ],
 
   rules: {
-    '@stylistic/space-before-blocks': 1,
-    '@stylistic/spaced-comment': [1, 'always'],
     '@stylistic/arrow-spacing': 1,
     '@stylistic/no-trailing-spaces': 1,
     '@stylistic/padding-line-between-statements': [
@@ -128,7 +127,9 @@ module.exports = {
         prev: ['const'],
       },
     ],
-    '@typescript-eslint/no-unused-vars': 1,
+    '@stylistic/space-before-blocks': 1,
+    '@stylistic/spaced-comment': [1, 'always'],
+    '@typescript-eslint/no-unused-vars': 0,
     'css-import-order/css-import-order': 1,
     'import/order': [
       1,
@@ -205,6 +206,15 @@ module.exports = {
     ],
     'sort-keys-fix/sort-keys-fix': 1,
     'typescript-sort-keys/interface': 1,
+    'unused-imports/no-unused-vars': [
+      1,
+      {
+        args: 'after-used',
+        argsIgnorePattern: '^_',
+        vars: 'all',
+        varsIgnorePattern: '^_',
+      },
+    ],
   },
   settings: {
     react: {
