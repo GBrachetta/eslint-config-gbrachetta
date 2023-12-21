@@ -29,7 +29,7 @@ module.exports = {
         '@typescript-eslint/no-extra-non-null-assertion': 'warn',
         '@typescript-eslint/no-extraneous-class': 'warn',
         '@typescript-eslint/no-unused-vars': [
-          'warn',
+          'off',
           { argsIgnorePattern: '^_' },
         ],
         '@typescript-eslint/no-use-before-define': [
