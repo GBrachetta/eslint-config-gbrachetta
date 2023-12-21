@@ -86,12 +86,49 @@ module.exports = {
     '@typescript-eslint',
     'sort-exports',
     'eslint-plugin-import',
-    'eslint-plugin-react'
+    'eslint-plugin-react',
+    '@stylistic'
   ],
 
   rules: {
+    '@stylistic/space-before-blocks': 1,
+    '@stylistic/spaced-comment': [1, 'always'],
+    '@stylistic/arrow-spacing': 1,
+    '@stylistic/no-trailing-spaces': 1,
+    '@stylistic/padding-line-between-statements': [
+      1,
+      {
+        blankLine: 'always',
+        next: ['return', 'export', 'function', 'block-like'],
+        prev: '*',
+      },
+      {
+        blankLine: 'always',
+        next: ['const', 'export', 'return'],
+        prev: 'import',
+      },
+      {
+        blankLine: 'always',
+        next: '*',
+        prev: ['default', 'directive', 'const', 'let', 'block-like'],
+      },
+      {
+        blankLine: 'any',
+        next: ['case'],
+        prev: ['case'],
+      },
+      {
+        blankLine: 'any',
+        next: ['let'],
+        prev: ['let'],
+      },
+      {
+        blankLine: 'any',
+        next: ['const'],
+        prev: ['const'],
+      },
+    ],
     '@typescript-eslint/no-unused-vars': 1,
-    'arrow-spacing': 1,
     'css-import-order/css-import-order': 1,
     'import/order': [
       1,
@@ -111,35 +148,6 @@ module.exports = {
           'unknown',
         ],
         'newlines-between': 'always',
-      },
-    ],
-    'no-trailing-spaces': 1,
-    'padding-line-between-statements': [
-      1,
-      {
-        blankLine: 'always',
-        next: ['return', 'export', 'function', 'block-like'],
-        prev: '*',
-      },
-      {
-        blankLine: 'always',
-        next: ['const', 'export', 'return'],
-        prev: 'import',
-      },
-      {
-        blankLine: 'always',
-        next: '*',
-        prev: ['case', 'default', 'directive', 'const', 'let', 'block-like'],
-      },
-      {
-        blankLine: 'any',
-        next: ['let'],
-        prev: ['let'],
-      },
-      {
-        blankLine: 'any',
-        next: ['const'],
-        prev: ['const'],
       },
     ],
     'prefer-const': 1,
@@ -196,11 +204,8 @@ module.exports = {
       },
     ],
     'sort-keys-fix/sort-keys-fix': 1,
-    'space-before-blocks': 1,
-    'spaced-comment': [1, 'always'],
     'typescript-sort-keys/interface': 1,
   },
-
   settings: {
     react: {
       version: 'detect',
