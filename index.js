@@ -228,6 +228,7 @@ module.exports = {
         },
       },
     ],
+    'unused-imports/no-unused-imports': 1,
     'unused-imports/no-unused-vars': [
       1,
       {
