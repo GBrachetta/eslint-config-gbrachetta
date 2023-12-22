@@ -3,7 +3,10 @@ module.exports = {
     es6: true,
   },
 
-  extends: 'plugin:css-import-order/recommended',
+  extends: [
+    'plugin:css-import-order/recommended',
+    'plugin:unicorn/recommended',
+  ],
   overrides: [
     {
       extends: [
@@ -206,6 +209,25 @@ module.exports = {
     ],
     'sort-keys-fix/sort-keys-fix': 1,
     'typescript-sort-keys/interface': 1,
+    'unicorn/empty-brace-spaces': 0,
+    'unicorn/prefer-module': 0,
+    'unicorn/prevent-abbreviations': [
+      2,
+      {
+        replacements: {
+          cmd: {
+            command: true,
+          },
+          e: false,
+          errCb: {
+            handleError: true,
+          },
+          props: false,
+          ref: false,
+          res: false,
+        },
+      },
+    ],
     'unused-imports/no-unused-vars': [
       1,
       {

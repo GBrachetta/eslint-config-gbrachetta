@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-gbrachetta",
   "author": "Guillermo Brachetta <brachetta@me.com> (https://github.com/gbrachetta/)",
-  "version": "1.4.3",
+  "version": "1.5.0",
   "description": "Thorough TSLint configuration for React-based projects based on airbnb and Prettier configs with many additional rules such as autofixable sorting, etc.",
   "files": [
     "index.js"
@@ -38,12 +38,14 @@
     "eslint-plugin-sort-exports": "^0.8.0",
     "eslint-plugin-sort-keys-fix": "^1.1.2",
     "eslint-plugin-typescript-sort-keys": "^3.1.0",
+    "eslint-plugin-unicorn": "^50.0.1",
     "eslint-plugin-unused-imports": "^3.0.0",
     "prettier": "3.1.1",
     "prettier-plugin-tailwindcss": "^0.5.9"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
+    "eslint-config-gbrachetta": "^1.4.3",
     "prettier": "^3.1.1"
   },
   "peerDependencies": {
