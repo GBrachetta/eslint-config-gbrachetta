@@ -32,7 +32,7 @@ module.exports = {
         '@typescript-eslint/no-extra-non-null-assertion': 'warn',
         '@typescript-eslint/no-extraneous-class': 'warn',
         '@typescript-eslint/no-unused-vars': [
-          'off',
+          'warn',
           { argsIgnorePattern: '^_' },
         ],
         '@typescript-eslint/no-use-before-define': [
@@ -132,7 +132,7 @@ module.exports = {
     ],
     '@stylistic/space-before-blocks': 1,
     '@stylistic/spaced-comment': [1, 'always'],
-    '@typescript-eslint/no-unused-vars': 0,
+    '@typescript-eslint/no-unused-vars': 1,
     'css-import-order/css-import-order': 1,
     'import/order': [
       1,
@@ -154,6 +154,7 @@ module.exports = {
         'newlines-between': 'always',
       },
     ],
+    'no-var': 0,
     'prefer-const': 1,
     'prettier/prettier': [
       1,
@@ -192,6 +193,7 @@ module.exports = {
     'sort-exports/sort-exports': [
       1,
       {
+        disableAutofixer: true,
         ignoreCase: true,
         sortDir: 'asc',
         sortExportKindFirst: 'type',
@@ -209,7 +211,10 @@ module.exports = {
     ],
     'sort-keys-fix/sort-keys-fix': 1,
     'typescript-sort-keys/interface': 1,
+    'unicorn/consistent-function-scoping': 0,
     'unicorn/empty-brace-spaces': 0,
+    'unicorn/no-negated-condition': 0,
+    'unicorn/no-null': 0,
     'unicorn/prefer-module': 0,
     'unicorn/prevent-abbreviations': [
       2,
@@ -228,9 +233,9 @@ module.exports = {
         },
       },
     ],
-    'unused-imports/no-unused-imports': 1,
+    'unused-imports/no-unused-imports': 0,
     'unused-imports/no-unused-vars': [
-      1,
+      0,
       {
         args: 'after-used',
         argsIgnorePattern: '^_',
