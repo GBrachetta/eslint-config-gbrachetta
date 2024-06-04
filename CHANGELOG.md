@@ -5,6 +5,35 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.7.6] — 2024-06-04
+
+- Bumped @typescript-eslint/eslint-plugin to v.7.12
+- Bumped @typescript-eslint/parser to v.7.12
+
+## [1.7.5] — 2024-06-04
+
+- Bumped @stylistic/eslint-plugin to v.2.1
+
+## [1.7.4] — 2024-06-04
+
+- Reverted unused imports to v.3.x
+
+## [1.7.3] — 2024-06-04
+
+- Bumped unused imports to v.4
+
+## [1.7.2] — 2024-06-04
+
+- Bumped eslint plugin sort destructured keys to v.2
+
+## [1.7.1] — 2024-06-04
+
+- Reverted EsLint to v.8.x
+
+## [1.7.0] — 2024-06-04
+
+- Bump EsLint to v.9.x
+
 ## [1.6.1] — 2024-06-04
 
 - Bump Tailwindcss plugin to latest version
