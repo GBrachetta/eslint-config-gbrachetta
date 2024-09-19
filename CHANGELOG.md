@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.0] — 2024-09-19
+
+- Bumped "@typescript-eslint/eslint-plugin": "^8.6.0" (from "^7.18.0")
+- Bumped "@typescript-eslint/parser": "^8.6.0" (from "^7.18.0")
+- Bumped "eslint-plugin-unused-imports": "^4.1.4" (from "^3.2.0")
+
 ## [1.8.1] — 2024-09-19
 
 - Moved '@typescript-eslint/member-delimiter-style' to '@stylistic/member-delimiter-style'
