@@ -23,7 +23,6 @@ module.exports = {
           'warn',
           { assertionStyle: 'as' },
         ],
-        '@typescript-eslint/member-delimiter-style': 'warn',
         '@typescript-eslint/no-dynamic-delete': 'warn',
         '@typescript-eslint/no-empty-interface': [
           'warn',
@@ -96,6 +95,7 @@ module.exports = {
 
   rules: {
     '@stylistic/arrow-spacing': 1,
+    '@stylistic/member-delimiter-style': 1,
     '@stylistic/no-trailing-spaces': 1,
     '@stylistic/padding-line-between-statements': [
       1,
