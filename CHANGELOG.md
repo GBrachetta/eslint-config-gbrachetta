@@ -5,6 +5,22 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.9.2] — 2024-09-28
+
+- Bumped "@stylistic/eslint-plugin": "^2.9.0" (from 2.8.0)
+- Bumped "@typescript-eslint/eslint-plugin": "^8.8.1" (from 8.7.0)
+- Bumped "@typescript-eslint/parser": "^8.8.1" (from 8.7.0)
+- Bumped "eslint-config-next": "14.2.14" (from 14.2.3)
+- Bumped "eslint-plugin-typescript-sort-keys": "^3.3.0" (from 3.2.0)
+- Bumped  "eslint-plugin-unicorn": "^56.0.0" (from 55.0.0)
+
+## [1.9.1] — 2024-09-28
+
+- Bumped "@typescript-eslint/eslint-plugin": "^8.7.0" (from 8.6.0)
+- Bumped "@typescript-eslint/parser": "^8.7.0" (from 8.6.0)
+- Bumped "eslint-config-next": "14.2.13", (from 14.2.12)
+- Bumped "prettier-plugin-tailwindcss": "^0.6.8", (from 0.6.6)
+
 ## [1.9.0] — 2024-09-19
 
 - Bumped "@typescript-eslint/eslint-plugin": "^8.6.0" (from "^7.18.0")
