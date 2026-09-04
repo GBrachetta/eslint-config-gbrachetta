@@ -256,6 +256,7 @@ module.exports = [
         },
       ],
       "unicorn/no-negated-condition": "off",
+      "unicorn/no-nested-ternary": "off",
       "unicorn/no-null": "off",
       "unicorn/prefer-module": "off",
       "unicorn/prevent-abbreviations": [
